@@ -23,6 +23,7 @@ The requirements are listed in requirements.txt
    pip install -r requirements.txt
    
 3) **Add your API key**
+4) 
    Add your together API key in config.py.
 
    This is required to interact with the LLaMA model from **together API**

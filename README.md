@@ -1,5 +1,5 @@
 # GenAI_Agent
-With English as its primary communication language, this simple AI agent was created to get cryptocurrency prices (particularly, Bitcoin) and respond to language translation requests. The agent connects with the CoinGecko API to retrieve real-time cryptocurrency prices and generates conversations using the Together AI LLaMA 3.1 8B model. Furthermore, the agent can translate customer queries into English from other languages.
+With English as its primary communication language, this simple AI agent was created using python to get cryptocurrency prices (particularly, Bitcoin) and respond to language translation requests. The agent connects with the CoinGecko API to retrieve real-time cryptocurrency prices and generates conversations using the Together AI LLaMA 3.1 8B model. Furthermore, the agent can translate customer queries into English from other languages.
 ## Features
 **Cryptocurrency Price Fetching:** Utilize the CoinGecko API to obtain the most recent price of Bitcoin and other supported cryptocurrencies.
 

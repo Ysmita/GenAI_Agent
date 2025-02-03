@@ -81,8 +81,8 @@ The following features could enhance this project's straightforward implementati
 2)	**Translation Qualtiy:**
   
    The translation quality depends on the translation service. (googletranslate)
-    
-     Might not be able to handle complex words or languages
+   
+   Might not be able to handle complex words or languages
 
 
     

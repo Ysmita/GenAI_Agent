@@ -8,8 +8,10 @@ import time
 # API Details
 API_URL = "https://api.together.xyz/v1/chat/completions"
 API_KEY = "add_your_together_api_key_here" 
-#model 
+#model  and model parameters
 model="meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"# change the model here
+max_tokens=150
+temp=0.7
 # URL to fetch the crypto details
 coingecko_url = "https://api.coingecko.com/api/v3"
 # Google translator to detect and translate user input

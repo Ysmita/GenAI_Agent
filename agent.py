@@ -15,8 +15,8 @@ def generate_response(user_input):
     payload = {
         "model":config.model,
         "messages": [{"role": "user", "content": user_input}],
-        "max_tokens": 150,
-        "temperature": 0.7
+        "max_tokens": config.max_tokens,
+        "temperature": config.temp
     }
     
 

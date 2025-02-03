@@ -13,38 +13,44 @@ With English as its primary communication language, this simple AI agent was cre
 The requirements are listed in requirements.txt
 
 ## Setup Instructions
-1) Clone the repository
+1) **Clone the repository**
    
    git clone https://github.com/Ysmita/GenAI-agent.git
    
    cd GenAI-agent
-2) Install the dependences
+2) **Install the dependences**
    
    pip install -r requirements.txt
    
-3) Add your API key
-   Add your together API key in config.py. This is required to interact with the LLaMA model from **together API**
+3) **Add your API key**
+   Add your together API key in config.py.
+
+   This is required to interact with the LLaMA model from **together API**
    
    In case you want to use a different model, update the same in config.py
 
- 4) Run the agent
+ 5) **Run the agent**
 
       After doing the setup and installing the dependencies, run agent.py
     
     Once the agent is up and running, you can interact with it via the terminal. Even if you enter questions in a different language, the agent will reply in English. It can     translate non-English input and retrieve bitcoin prices.
     
-  5) To find example conversation refer to Report.docx
+  6) To find example conversation refer to Report.docx
 
 ## API Integrations
 1) **The CoinGecko API**
    
-   The CoinGecko API, which is free and doesn't require an API key, is used by the agent to retrieve cryptocurrency prices. 
+   The CoinGecko API, which is free and doesn't require an API key, is used by the agent to retrieve cryptocurrency prices.
 
-2) Together API
+    [CoinGecko API](https://www.coingecko.com/en/api)
+
+2) **Together API**
 
    Conversations are handled by the AI agent using Together AI's LLaMA 3.1 8B model.
 
-3) Google Translate API
+   [official documentation Together API](https://www.together.ai)
+
+3) **Google Translate API**
 
    The agent uses the googletrans library to translate user input into English for consistent system responses.
 
@@ -52,25 +58,29 @@ The requirements are listed in requirements.txt
 
 The following features could enhance this project's straightforward implementation:
 
-1) Improved Error Handling:
+1) **Improved Error Handling:**
    
    Retry queries in the event that an API call fails or produces rate-limited answers to handle API failures more tactfully.
 
-2) Multi-User:
+2) **Multi-User:**
 
    To accommodate several users at once with separate contexts, employ session handling.
 
-3) Increased CryptoCurrency Support:
+3) **Increased CryptoCurrency Support:**
 
    The current project supports only bitcoin. This can be extended to other cryptocurrencies by using appropriate APIs.
 
 ## Assumptions and Limitations:
 
-1)	AI Agent performance varies depending on the model chosen.
+1)	**Performance:**
+
+  	AI Agent performance varies depending on the model chosen.
 
   	In the current project we have chosen Meta-Llama-3.1-8B-Instruct-Turbo model(as listed in together.ai)
 
-2)	The translation quality depends on the translation service. (googletranslate)
+2)	**Translation Qualtiy:**
+  
+   The translation quality depends on the translation service. (googletranslate)
     
      Might not be able to handle complex words or languages
 

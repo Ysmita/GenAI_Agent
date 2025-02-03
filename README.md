@@ -23,39 +23,38 @@ The requirements are listed in requirements.txt
    pip install -r requirements.txt
    
 3) **Add your API key**
-4) 
+
    Add your together API key in config.py.
 
    This is required to interact with the LLaMA model from **together API**
    
    In case you want to use a different model, update the same in config.py
 
- 5) **Run the agent**
+ 4) **Run the agent**
 
       After doing the setup and installing the dependencies, run agent.py
     
     Once the agent is up and running, you can interact with it via the terminal. Even if you enter questions in a different language, the agent will reply in English. It can     translate non-English input and retrieve bitcoin prices.
     
-  6) **Reference**
+  5) **Reference**
    
      To find example conversations refer to Report.docx
 
 ## API Integrations
-1) **The CoinGecko API**
+1) [**The CoinGecko API**](https://www.coingecko.com/en/api)
    
    The CoinGecko API, which is free and doesn't require an API key, is used by the agent to retrieve cryptocurrency prices.
 
-    [CoinGecko API](https://www.coingecko.com/en/api)
 
-2) **Together API**
+2) [**Together API**](https://www.together.ai)
 
    Conversations are handled by the AI agent using Together AI's LLaMA 3.1 8B model.
 
-   [official documentation Together API](https://www.together.ai)
 
-3) **Google Translate API**
+3) [**Google Translate API**](https://cloud.google.com/translate/docs)
 
    The agent uses the googletrans library to translate user input into English for consistent system responses.
+
 
 ## Improvements and Future Scope
 
@@ -81,7 +80,7 @@ The following features could enhance this project's straightforward implementati
 
   	In the current project we have chosen Meta-Llama-3.1-8B-Instruct-Turbo model(as listed in together.ai)
 
-2)	**Translation Qualtiy:**
+2)	**Translation Quality:**
   
       The translation quality depends on the translation service. (googletranslate)
    

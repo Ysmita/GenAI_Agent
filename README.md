@@ -35,7 +35,9 @@ The requirements are listed in requirements.txt
     
     Once the agent is up and running, you can interact with it via the terminal. Even if you enter questions in a different language, the agent will reply in English. It can     translate non-English input and retrieve bitcoin prices.
     
-  6) To find example conversation refer to Report.docx
+  6) **Reference**
+   
+     To find example conversations refer to Report.docx
 
 ## API Integrations
 1) **The CoinGecko API**
@@ -80,9 +82,9 @@ The following features could enhance this project's straightforward implementati
 
 2)	**Translation Qualtiy:**
   
-   The translation quality depends on the translation service. (googletranslate)
+      The translation quality depends on the translation service. (googletranslate)
    
-   Might not be able to handle complex words or languages
+      Might not be able to handle complex words or languages
 
 
     
